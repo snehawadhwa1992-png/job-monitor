@@ -178,3 +178,4 @@ job-monitor/
 **Start with [QUICKSTART.md](QUICKSTART.md) now!**
 
 **Built for Sneha • February 2026**
+# job-monitor
