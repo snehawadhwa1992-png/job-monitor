@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+
+# Job database (auto-generated, avoid conflicts)
+jobs_seen.json
+
+# Dashboard (KEEP THIS - it should be committed!)
+# dashboard.html - DO NOT IGNORE
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

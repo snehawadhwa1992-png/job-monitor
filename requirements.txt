@@ -1,0 +1,16 @@
+# requirements.txt
+# Python dependencies for Job Monitor
+
+# Web scraping
+requests==2.31.0
+beautifulsoup4==4.12.3
+
+# Google AI Studio (Gemini)
+google-generativeai==0.3.2
+
+# Email
+sendgrid==6.11.0
+
+# JSON handling (built-in)
+# datetime (built-in)
+# hashlib (built-in)
