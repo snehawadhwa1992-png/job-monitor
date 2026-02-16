@@ -1,15 +1,8 @@
-# .github/workflows/daily-job-check.yml
-# GitHub Actions workflow - runs job monitor daily
-
 name: Daily Job Monitor
 
 on:
-  # Run daily at 9 AM UTC (adjust for your timezone)
-  # 9 AM UTC = 4 AM EST / 5 PM SGT / 1 PM Dubai
   schedule:
     - cron: '0 9 * * *'
-  
-  # Allow manual trigger
   workflow_dispatch:
 
 jobs:
@@ -41,11 +34,13 @@ jobs:
         run: |
           python main.py
       
-     - name: Commit updated job database and dashboard
-     run: |
-        git config --global user.name 'Job Monitor Bot'
+      - name: Commit updated job database and dashboard
+        run: |
+          git config --global user.name 'Job Monitor Bot'
           git config --global user.email 'bot@github.com'
           git add -A
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update jobs and dashboard - $(date +'%Y-%m-%d %H:%M')"
-          git push || true
-          continue-on-error: true
+          if ! git diff --quiet || ! git diff --staged --quiet; then
+            git commit -m "Update jobs and dashboard - $(date +'%Y-%m-%d %H:%M')"
+            git push
+          fi
+        continue-on-error: true
