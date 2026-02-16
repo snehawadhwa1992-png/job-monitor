@@ -155,35 +155,93 @@ EXCLUDE_KEYWORDS = [
 YOUR_PROFILE = """
 Master's candidate in Learning Design, Innovation & Technology at Harvard Graduate School of Education (graduating 2026).
 
-EXPERIENCE (8+ years):
-- Teaching: Teach for India Fellow and Program Manager (underserved communities, red-light districts)
-- EdTech Product: Byju's, Bhanzu (learning experience design, product development)
-- Consulting: Genpact, Aga Khan Foundation (large-scale technology adoption)
-- Adult Learning: Wisdom Circle (product development, user research with older adults)
+EXPERIENCE (8+ years spanning teaching, EdTech product development, consulting, and adult learning):
 
-RESEARCH:
-- "Impact by Design" - examining technology adoption with underserved populations
+Teaching & Instructional Design:
+- Teach for India Fellow and Program Manager: Worked with children in underserved communities including red-light districts, developing evidence-based teaching approaches and managing educational programs
+- Shiv Nadar School: Explored instructional design excellence through experimentation with innovative teaching methods to achieve optimal learning outcomes
+
+EdTech Product Development:
+- Byju's & Bhanzu: Led MVP development, curriculum development, and content development for learning platforms
+- Designed learning experiences combining pedagogical principles with product thinking
+- Developed educational content and curricula aligned with learning science frameworks
+
+Consulting & Learning Systems:
+- Genpact & Aga Khan Foundation: Large-scale technology adoption projects
+- Learning System Development: Designed and implemented comprehensive learning systems and frameworks
+- Change Management: Led organizational change initiatives for technology adoption and learning transformation
+
+Adult Learning & User Research:
+- Wisdom Circle: Adult learning product development and user research with older adults navigating technology
+- Conducted qualitative research to understand learner needs and barriers
+
+RESEARCH & FRAMEWORKS:
+
+Research:
+- Examining technology adoption and engagement among underserved populations (older adults)
 - Developed 5 evidence-based design principles for age-inclusive technology
-- Validated through expert interviews with AARP, GetSetUp professionals
-- AgeTech Design Principles Assessment Tool (54 questions)
+- Validated through expert interviews with professionals from AARP, GetSetUp, and other organizations
+- Focus on cognitive partnership with AI: Exploring how humans and AI systems can work together in learning contexts
+- Construct development around human-AI collaboration in educational settings
 
-EXPERTISE:
-- Learning Science + Product Thinking + Inclusive Design + Implementation at Scale
-- Evidence-based frameworks and human-centered research
-- Designing for overlooked/underserved populations (children to older adults)
-- Systematic, data-driven approaches to learning design
+EXPERTISE & CORE COMPETENCIES:
 
-INTERESTS:
-- AI in education (cognitive partnership, not cognitive replacement)
-- Underserved populations and equitable access
-- Product development that combines learning science with user research
-- Scaling evidence-based interventions
+Learning Design & Instruction:
+- Learning Design (instructional strategies, learning experiences, learner-centered design)
+- Instructional Design (curriculum development, content design, assessment design)
+- Learning Science principles and evidence-based approaches
+- AI-integrated learning (designing learning experiences that leverage AI tools and capabilities)
+- Learning Analytics (measuring learning outcomes, data-driven design decisions)
+
+Product & Research:
+- Product Thinking and user-centered design
+- User Research and qualitative methods
+- Inclusive Design for diverse and underserved populations
+- Implementation at Scale (systems thinking, organizational change)
+
+Frameworks & Approaches:
+- Evidence-based frameworks and systematic approaches
+- Design principles for overlooked or underserved populations
+- Human-centered research methodologies
 
 TARGET ROLES:
-- Learning Designer, Instructional Designer, Learning Experience Designer
-- Product Designer (education-focused), User Researcher (education-focused)
-- Program Manager (education partnerships, impact-focused)
-- Educational Technologist, Consultant (education transformation)
+
+Primary Focus:
+- Learning Designer
+- Instructional Designer
+- Learning Experience Designer (LXD)
+- Educational Technologist
+
+Product & Research (Education-focused):
+- Product Designer (education products)
+- User Researcher (learning/education)
+- Product Manager (education technology - seeking candidates transitioning into PM roles or those with strong learning design background even without extensive PM experience)
+- Program Manager (education/learning programs)
+
+Consulting & Strategy:
+- Learning Consultant
+- L&D Consultant
+- Education Consultant
+
+PREFERENCES:
+
+Industries/Sectors:
+- AI + Education (companies using AI for learning)
+- EdTech Platforms (learning management systems, online education)
+- Corporate Learning & L&D (workplace training, employee development, learning systems)
+- Nonprofits/Foundations (educational nonprofits, social impact organizations)
+
+Work Values:
+- Evidence-based approaches
+- Focus on underserved or overlooked populations
+- Systematic and rigorous design processes
+- Combining learning science with product thinking
+- Impact-driven work
+
+Locations:
+- USA (all states, including remote)
+- Singapore
+- Dubai/UAE
 """
 
 # ===== SCORING THRESHOLDS =====
