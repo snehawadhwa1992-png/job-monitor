@@ -41,11 +41,11 @@ jobs:
         run: |
           python main.py
       
-      - name: Commit updated job database and dashboard
-        run: |
-          git config --global user.name 'Job Monitor Bot'
+     - name: Commit updated job database and dashboard
+     run: |
+        git config --global user.name 'Job Monitor Bot'
           git config --global user.email 'bot@github.com'
-          git add jobs_seen.json dashboard.html
+          git add -A
           git diff --quiet && git diff --staged --quiet || git commit -m "Update jobs and dashboard - $(date +'%Y-%m-%d %H:%M')"
-          git push
-        continue-on-error: true
+          git push || true
+          continue-on-error: true
