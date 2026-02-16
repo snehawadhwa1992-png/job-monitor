@@ -236,5 +236,11 @@ def get_geography_for_today():
 
 # ===== FILE PATHS =====
 
-DATABASE_FILE = "/home/claude/job-monitor/jobs_seen.json"
-LOG_FILE = "/home/claude/job-monitor/job_monitor.log"
+import os
+
+# Get the directory where this script is located
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Use relative paths that work both locally and on GitHub Actions
+DATABASE_FILE = os.path.join(BASE_DIR, "jobs_seen.json")
+LOG_FILE = os.path.join(BASE_DIR, "job_monitor.log")
