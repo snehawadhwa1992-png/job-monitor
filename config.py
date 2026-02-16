@@ -7,40 +7,36 @@ from datetime import datetime
 # ===== GREENHOUSE COMPANIES (Daily scraping, FREE) =====
 GREENHOUSE_COMPANIES = [
     # AI + Education
-    "anthropic",
-    "openai",
+    "anthropic", "khanacademy", "duolingo", "grammarly",
     
-    # K-12 & Higher Ed Platforms
-    "khanacademy",
-    "duolingo",
-    "coursera",
-    "udacity",
-    "outschool",
-    "codepath",
-    "renaissancelearning-nam",
-    "d2l",
+    # Major EdTech
+    "newsela", "brainpop", "seesaw", "goguardian", "clever",
+    "renaissancelearning-nam", "d2l", "coursera", "udacity",
+    "outschool", "codepath", "guild", "chegg", "2u",
+    "generalassembly", "springboard", "thinkful",
     
-    # Adaptive Learning
-    "newsela",
-    "quizlet",
+    # Corporate L&D
+    "degreed", "pluralsight", "udemy", "go1", "360learning",
+    "docebo", "betterup", "torch", "mindtickle",
     
-    # Teacher Tools
-    "clever",
-    "seesaw",
-    "goguardian",
-    "remind",
+    # Tools Used in Education
+    "canva", "notion", "figma", "miro", "loom", "otter",
     
-    # Corporate Learning
-    "pluralsight",
-    "udemy",
-    "guild",
-    "multiverse",
+    # Assessment & Curriculum
+    "turnitin", "instructure", "gradescope",
     
-    # Other Major EdTech
-    "brainpop",
-    "nearpod",
-    "gradescope",
-    "amplify",
+    # Singapore
+    "koobits", "geniebook", "snapask", "cialfo",
+    
+    # Dubai/Middle East
+    "alefeducation",
+    
+    # Nonprofits
+    "teachforamerica", "codeorg", "tntp", "newteachercenter",
+    "transcendeducation",
+    
+    # Strong L&D Teams
+    "hubspot", "salesforce", "shopify", "atlassian",
 ]
 
 # ===== ROLE CLUSTERS (for optimized API searches) =====
